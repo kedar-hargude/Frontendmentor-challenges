@@ -59,13 +59,14 @@ body {
   justify-content: space-between;
 }
 
-header {
+#header {
   font-size: 22px;
   font-weight: 700;
   line-height: 120%;
   text-align: center;
   color: var(--slate900);
   font-style: normal;
+  margin: 0;
 }
 
 #subheader {
@@ -75,4 +76,5 @@ header {
   line-height: 140%;
   letter-spacing: 0.2px;
   color: var(--slate500);
+  margin: 0;
 }
