@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 :root {
   --customWhite: hsl(0, 0%, 100%);
@@ -29,34 +29,29 @@ body {
 }
 
 .card {
-  width: 320px;
-  height: 499px;
+  max-width: 20rem; /* 320px */
   background: var(--customWhite);
   border-radius: 20px;
   padding: 16px;
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
+  gap: 24px;
   justify-content: space-between;
   box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0477);
 }
 
-.card > .image {
-  width: 288px;
-  height: 288px;
-  background-image: url("./images/image-qr-code.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
+.card > img {
+  display: block;
+  width: 100%;
   border-radius: 10px;
 }
 
 .card > .text-container {
-  height: 131px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-inline: 16px;
   display: flex;
   flex-direction: column;
+  gap: 16px;
   justify-content: space-between;
 }
 
